@@ -46,10 +46,10 @@ const time_limit = function(data, next) {
 // compares the chosen answer to the value of `option1`
 check_response = function(data, next) {
     $('input[name=answer]').on('change', function(e) {
-        if (e.target.value === data.correct) {
+        if (e.target.value === data.expected) {
             alert('Your answer is correct!');
         } else {
-            alert('Sorry, this answer is incorrect. The correct answer was ' + data.correct);
+            alert('Sorry, this answer is incorrect. The correct answer was ' + data.expected);
         }
         next();
     })

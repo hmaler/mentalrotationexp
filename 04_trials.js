@@ -2,13 +2,12 @@
 const practice_trials = {
     practice: [
         {
-            question: 'Same or different?',
             picture: "images/1_50_different.jpg",
             key1: 'f',
             key2: 'j',
             f: 'same',
             j: 'different',
-            correct: 'different',
+            expected: 'different',
             degrees_of_rotation: '50',
             number_of_picture: '1'
         },
@@ -18,9 +17,9 @@ const practice_trials = {
           key2: 'j',
           f: 'same',
           j: 'different',
-          correct: 'same',
+          expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '2'
+          number_of_picture: '1'
         },
         {
             picture: "images/1_150_different.jpg",
@@ -30,7 +29,7 @@ const practice_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '3'
+            number_of_picture: '1'
         },
         {
           picture: "images/1_150_same.jpg",
@@ -40,7 +39,7 @@ const practice_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '4'
+          number_of_picture: '1'
         },
         {
             picture: "images/2_50_different.jpg",
@@ -50,7 +49,7 @@ const practice_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '5'
+            number_of_picture: '2'
         },
         {
           picture: "images/2_50_same.jpg",
@@ -60,7 +59,7 @@ const practice_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '6'
+          number_of_picture: '2'
         },
         {
             picture: "images/2_150_different.jpg",
@@ -70,7 +69,7 @@ const practice_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '7'
+            number_of_picture: '2'
         },
         {
           picture: "images/2_150_same.jpg",
@@ -80,7 +79,7 @@ const practice_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '8'
+          number_of_picture: '2'
         },
         {
             picture: "images/3_50_different.jpg",
@@ -90,7 +89,7 @@ const practice_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '9'
+            number_of_picture: '2'
         },
         {
           picture: "images/3_50_same.jpg",
@@ -100,7 +99,7 @@ const practice_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '10'
+          number_of_picture: '3'
         },
         {
             picture: "images/3_150_different.jpg",
@@ -110,7 +109,7 @@ const practice_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '11'
+            number_of_picture: '3'
         },
         {
           picture: "images/3_150_same.jpg",
@@ -120,7 +119,7 @@ const practice_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '12'
+          number_of_picture: '3'
         },
     ]
 };
@@ -135,7 +134,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '1'
+            number_of_picture: '4'
         },
         {
           picture: "images/4_50_same.jpg",
@@ -145,7 +144,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '2'
+          number_of_picture: '4'
         },
         {
             picture: "images/4_150_different.jpg",
@@ -155,7 +154,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '3'
+            number_of_picture: '4'
         },
         {
           picture: "images/4_150_same.jpg",
@@ -185,7 +184,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '6'
+          number_of_picture: '5'
         },
         {
             picture: "images/5_150_different.jpg",
@@ -195,7 +194,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '7'
+            number_of_picture: '5'
         },
         {
           picture: "images/5_150_same.jpg",
@@ -205,7 +204,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '8'
+          number_of_picture: '5'
         },
         {
             picture: "images/6_50_different.jpg",
@@ -215,7 +214,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '9'
+            number_of_picture: '6'
         },
         {
           picture: "images/6_50_same.jpg",
@@ -225,7 +224,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '10'
+          number_of_picture: '6'
         },
         {
             picture: "images/6_150_different.jpg",
@@ -235,7 +234,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '11'
+            number_of_picture: '6'
         },
         {
           picture: "images/6_150_same.jpg",
@@ -245,7 +244,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '12'
+          number_of_picture: '6'
         },
         {
             picture: "images/7_50_different.jpg",
@@ -255,7 +254,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '13'
+            number_of_picture: '7'
         },
         {
           picture: "images/7_50_same.jpg",
@@ -265,7 +264,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '14'
+          number_of_picture: '7'
         },
         {
             picture: "images/7_150_different.jpg",
@@ -275,7 +274,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '15'
+            number_of_picture: '7'
         },
         {
           picture: "images/7_150_same.jpg",
@@ -285,7 +284,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '16'
+          number_of_picture: '7'
         },
         {
             picture: "images/8_50_different.jpg",
@@ -295,7 +294,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '17'
+            number_of_picture: '8'
         },
         {
           picture: "images/8_50_same.jpg",
@@ -305,7 +304,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '18'
+          number_of_picture: '8'
         },
         {
             picture: "images/8_150_different.jpg",
@@ -315,7 +314,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '19'
+            number_of_picture: '8'
         },
         {
           picture: "images/8_150_same.jpg",
@@ -325,7 +324,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '20'
+          number_of_picture: '8'
         },
         {
             picture: "images/9_50_different.jpg",
@@ -335,7 +334,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '21'
+            number_of_picture: '9'
         },
         {
           picture: "images/9_50_same.jpg",
@@ -345,7 +344,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '22'
+          number_of_picture: '9'
         },
         {
             picture: "images/9_150_different.jpg",
@@ -355,7 +354,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '23'
+            number_of_picture: '9'
         },
         {
           picture: "images/9_150_same.jpg",
@@ -365,7 +364,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '24'
+          number_of_picture: '9'
         },
         {
             picture: "images/10_50_different.jpg",
@@ -375,7 +374,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '25'
+            number_of_picture: '10'
         },
         {
           picture: "images/10_50_same.jpg",
@@ -385,7 +384,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '26'
+          number_of_picture: '10'
         },
         {
             picture: "images/10_150_different.jpg",
@@ -395,7 +394,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '27'
+            number_of_picture: '10'
         },
         {
           picture: "images/10_150_same.jpg",
@@ -405,7 +404,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '28'
+          number_of_picture: '10'
         },
         {
             picture: "images/11_50_different.jpg",
@@ -415,7 +414,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '29'
+            number_of_picture: '11'
         },
         {
           picture: "images/11_50_same.jpg",
@@ -425,7 +424,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '30'
+          number_of_picture: '11'
         },
         {
             picture: "images/11_150_different.jpg",
@@ -435,7 +434,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '31'
+            number_of_picture: '11'
         },
         {
           picture: "images/11_150_same.jpg",
@@ -445,7 +444,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '32'
+          number_of_picture: '11'
         },
         {
             picture: "images/12_50_different.jpg",
@@ -455,7 +454,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '33'
+            number_of_picture: '12'
         },
         {
           picture: "images/12_50_same.jpg",
@@ -465,7 +464,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '34'
+          number_of_picture: '12'
         },
         {
             picture: "images/12_150_different.jpg",
@@ -475,7 +474,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '35'
+            number_of_picture: '12'
         },
         {
           picture: "images/12_150_same.jpg",
@@ -485,7 +484,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '36'
+          number_of_picture: '12'
         },
         {
             picture: "images/13_50_different.jpg",
@@ -495,7 +494,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '37'
+            number_of_picture: '13'
         },
         {
           picture: "images/13_50_same.jpg",
@@ -505,7 +504,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '38'
+          number_of_picture: '13'
         },
         {
             picture: "images/13_150_different.jpg",
@@ -515,7 +514,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '39'
+            number_of_picture: '13'
         },
         {
           picture: "images/13_150_same.jpg",
@@ -525,7 +524,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '40'
+          number_of_picture: '13'
         },
         {
             picture: "images/14_50_different.jpg",
@@ -535,7 +534,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '41'
+            number_of_picture: '14'
         },
         {
           picture: "images/14_50_same.jpg",
@@ -545,7 +544,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '42'
+          number_of_picture: '14'
         },
         {
             picture: "images/14_150_different.jpg",
@@ -555,7 +554,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '43'
+            number_of_picture: '14'
         },
         {
           picture: "images/14_150_same.jpg",
@@ -565,7 +564,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '44'
+          number_of_picture: '14'
         },
         {
             picture: "images/15_50_different.jpg",
@@ -575,7 +574,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '50',
-            number_of_picture: '45'
+            number_of_picture: '15'
         },
         {
           picture: "images/15_50_same.jpg",
@@ -585,7 +584,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '50',
-          number_of_picture: '46'
+          number_of_picture: '15'
         },
         {
             picture: "images/15_150_different.jpg",
@@ -595,7 +594,7 @@ const main_trials = {
             j: 'different',
             expected: 'different',
             degrees_of_rotation: '150',
-            number_of_picture: '47'
+            number_of_picture: '15'
         },
         {
           picture: "images/15_150_same.jpg",
@@ -605,7 +604,7 @@ const main_trials = {
           j: 'different',
           expected: 'same',
           degrees_of_rotation: '150',
-          number_of_picture: '48'
+          number_of_picture: '15'
         }
     ]
 };
