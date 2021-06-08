@@ -17,6 +17,6 @@ This experiment was built using [\_magpie](https://magpie-ea.github.io/magpie-si
 
 ## Running the experiment
 
-1. Online Link: [here](https://magpie-mental-rotation.netlify.com)
+1. Online Link: [here](https://mentalrotexp.netlify.app)
 
 2. Offline: Clone the repository, run `npm install` and open `index.html`.
